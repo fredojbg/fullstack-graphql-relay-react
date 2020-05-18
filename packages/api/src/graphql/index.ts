@@ -5,7 +5,7 @@ import { makeExecutableSchema } from 'graphql-tools';
 import { resolvers } from './resolver';
 
 function createSchema() {
-  const schemaTxt = readFileSync(join(__dirname, 'schema.graphql'), {
+  const schemaTxt = readFileSync(join(__dirname, './schema.graphql'), {
     encoding: 'utf-8',
   });
 

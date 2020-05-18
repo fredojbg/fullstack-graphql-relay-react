@@ -10,7 +10,7 @@ router.get('/hello', (ctx) => {
 });
 
 router.post(
-  '/teste',
+  '/graphql',
   execute({
     schema,
   }),
